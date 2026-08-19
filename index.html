@@ -2,402 +2,1080 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23ff6b35'/%3E%3Ctext x='16' y='23' text-anchor='middle' fill='white' font-family='Arial,sans-serif' font-weight='bold' font-size='22'%3EH%3C/text%3E%3C/svg%3E">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technology Insights on AI, Software, Cybersecurity & Gadgets | HelloInsights</title>
-    <meta name="description" content="Explore the latest in AI, software, cybersecurity, gadgets, developer tools and emerging technology from HelloInsights.">
-    <link rel="canonical" href="https://technology.helloinsights.online/">
-    <!-- Open Graph -->
+    <title>HelloInsights | What's Worth Knowing</title>
+    <meta name="description" content="Tech, finance, AI and everyday topics, explained simply. Clear writing on the things that matter.">
+    <meta name="keywords" content="technology, finance, AI, health, lifestyle, insights, news">
+    <meta property="og:title" content="HelloInsights | What's Worth Knowing">
+    <meta property="og:description" content="Tech, finance, AI and everyday topics, explained simply.">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Technology Insights on AI, Software, Cybersecurity & Gadgets | HelloInsights">
-    <meta property="og:description" content="Explore the latest in AI, software, cybersecurity, gadgets, developer tools and emerging technology from HelloInsights.">
-    <meta property="og:url" content="https://technology.helloinsights.online/">
-    <meta property="og:site_name" content="HelloInsights Technology">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=630&fit=crop">
-    <!-- Twitter -->
+    <meta property="og:site_name" content="HelloInsights">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Technology Insights on AI, Software, Cybersecurity & Gadgets | HelloInsights">
-    <meta name="twitter:description" content="Explore the latest in AI, software, cybersecurity, gadgets, developer tools and emerging technology from HelloInsights.">
-    <!-- Preconnect -->
-    <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
-    <!-- Config -->
-    <script src="site-config.js"></script>
-    <!-- Styles -->
-    <link rel="stylesheet" href="style.css">
-    <!-- JSON-LD: WebSite -->
+    <meta name="twitter:title" content="HelloInsights | What's Worth Knowing">
+    <meta name="twitter:description" content="Tech, finance, AI and everyday topics, explained simply.">
+    <link rel="canonical" href="index.html">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "name": "HelloInsights Technology",
-        "url": "https://technology.helloinsights.online/",
-        "description": "Explore the latest in AI, software, cybersecurity, gadgets, developer tools and emerging technology.",
-        "publisher": { "@type": "Organization", "name": "HelloInsights" }
+        "name": "HelloInsights",
+        "url": "",
+        "description": "Tech, finance, AI and everyday topics, explained simply.",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "index.html?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
     }
     </script>
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+    <link rel="dns-prefetch" href="https://images.unsplash.com">
+    <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
+    <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
+    <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="style.css"></noscript>
+    <script src="ads-config.js" defer></script>
+    <script src="config-loader.js" async></script>
+    <style>
+    /* ========================================
+       HelloInsights Main Site - Editorial Style
+       ======================================== */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+        --accent: #ff6b35;
+        --accent-hover: #e85a2a;
+        --text-primary: #1a1a1a;
+        --text-secondary: #555555;
+        --text-muted: #888888;
+        --bg-body: #fafafa;
+        --bg-white: #ffffff;
+        --border: #e8e8e8;
+        --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+        --shadow-md: 0 2px 12px rgba(0,0,0,0.08);
+        --shadow-hover: 0 6px 24px rgba(0,0,0,0.1);
+        --radius: 8px;
+        --max-w: 1280px;
+    }
+    html { font-size: 16px; scroll-behavior: smooth; }
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        line-height: 1.6; color: var(--text-primary); background: var(--bg-body);
+        -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+
+    /* Header */
+    .header {
+        background: var(--bg-white); border-bottom: 1px solid var(--border);
+        position: sticky; top: 0; z-index: 1000;
+    }
+    .header-inner {
+        max-width: var(--max-w); margin: 0 auto;
+        padding: 0 24px; height: 64px;
+        display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { display: flex; align-items: center; flex-shrink: 0; }
+    .logo svg { max-height: 36px; width: auto; }
+    .header-nav { display: flex; align-items: center; gap: 4px; }
+    .header-nav a {
+        padding: 6px 14px; border-radius: 6px; font-size: 0.9rem;
+        font-weight: 500; color: var(--text-secondary); transition: color 0.2s, background 0.2s;
+    }
+    .header-nav a:hover { color: var(--accent); background: rgba(255,107,53,0.06); }
+    .header-search {
+        display: flex; align-items: center; background: var(--bg-body);
+        border: 1px solid var(--border); border-radius: 8px;
+        padding: 6px 12px; transition: border-color 0.2s;
+    }
+    .header-search:focus-within { border-color: var(--accent); }
+    .header-search input {
+        border: none; background: transparent; outline: none;
+        width: 180px; font-size: 0.875rem; color: var(--text-primary);
+    }
+    .header-search input::placeholder { color: var(--text-muted); }
+    .header-search button {
+        background: none; border: none; cursor: pointer;
+        color: var(--text-muted); font-size: 1rem; padding: 0 0 0 8px;
+    }
+    .header-search button:hover { color: var(--accent); }
+
+    /* Mobile menu toggle */
+    .menu-toggle {
+        display: none; flex-direction: column; gap: 5px;
+        cursor: pointer; padding: 8px; background: none; border: none;
+    }
+    .menu-toggle span {
+        width: 24px; height: 2px; background: var(--text-primary);
+        border-radius: 2px; transition: transform 0.3s, opacity 0.3s;
+    }
+    .menu-toggle.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+    .menu-toggle.open span:nth-child(2) { opacity: 0; }
+    .menu-toggle.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
+    /* Mobile menu */
+    .mobile-menu {
+        display: none; background: var(--bg-white); border-bottom: 1px solid var(--border);
+        padding: 16px 24px;
+    }
+    .mobile-menu.open { display: block; }
+    .mobile-menu a {
+        display: block; padding: 12px 0; font-size: 1rem; font-weight: 500;
+        color: var(--text-secondary); border-bottom: 1px solid var(--border);
+    }
+    .mobile-menu a:last-child { border-bottom: none; }
+    .mobile-menu a:hover { color: var(--accent); }
+    .mobile-search { margin-top: 12px; }
+    .mobile-search input {
+        width: 100%; padding: 10px 14px; border: 1px solid var(--border);
+        border-radius: 8px; font-size: 0.9rem; outline: none;
+    }
+    .mobile-search input:focus { border-color: var(--accent); }
+
+    /* Hero */
+    .hero {
+        background: linear-gradient(180deg, #fff 0%, var(--bg-body) 100%);
+        padding: 60px 24px 48px; text-align: center;
+    }
+    .hero-inner { max-width: 640px; margin: 0 auto; }
+    .hero h1 {
+        font-size: 2.5rem; font-weight: 800; line-height: 1.15;
+        color: var(--text-primary); letter-spacing: -0.02em; margin-bottom: 16px;
+    }
+    .hero p {
+        font-size: 1.125rem; color: var(--text-secondary);
+        line-height: 1.6; margin-bottom: 24px;
+    }
+    .hero-cta {
+        display: inline-block; background: var(--accent); color: #fff;
+        padding: 12px 28px; border-radius: 8px; font-weight: 600;
+        font-size: 0.95rem; transition: background 0.2s, transform 0.2s;
+    }
+    .hero-cta:hover { background: var(--accent-hover); transform: translateY(-1px); }
+
+    /* Main layout */
+    .main { max-width: var(--max-w); margin: 0 auto; padding: 0 24px 60px; }
+
+    /* Section */
+    .section { margin-bottom: 56px; }
+    .section-header {
+        display: flex; align-items: baseline; justify-content: space-between;
+        margin-bottom: 24px; padding-bottom: 12px; border-bottom: 1px solid var(--border);
+    }
+    .section-header h2 {
+        font-size: 1.25rem; font-weight: 700; text-transform: uppercase;
+        letter-spacing: 0.04em; color: var(--text-primary);
+    }
+    .section-header .view-all {
+        font-size: 0.875rem; font-weight: 500; color: var(--accent);
+        transition: color 0.2s;
+    }
+    .section-header .view-all:hover { color: var(--accent-hover); }
+    .section-desc {
+        font-size: 0.9rem; color: var(--text-muted); margin: -16px 0 24px;
+        line-height: 1.5;
+    }
+
+    /* Featured layout */
+    .featured-grid {
+        display: grid; grid-template-columns: 65% 1fr; gap: 24px;
+    }
+    .featured-main { position: relative; }
+    .featured-main .card-image { height: 100%; min-height: 320px; }
+    .featured-side { display: flex; flex-direction: column; gap: 24px; }
+    .featured-side .card-image { height: 140px; }
+
+    /* Article grid */
+    .article-grid {
+        display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;
+    }
+
+    /* Article card */
+    .article-card {
+        background: var(--bg-white); border-radius: var(--radius);
+        box-shadow: var(--shadow-sm); overflow: hidden;
+        transition: transform 0.25s, box-shadow 0.25s;
+        display: flex; flex-direction: column; cursor: pointer;
+    }
+    .article-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-hover); }
+    .card-image {
+        width: 100%; aspect-ratio: 16/9; overflow: hidden;
+        background: #f0f0f0;
+    }
+    .card-image img {
+        width: 100%; height: 100%; object-fit: cover;
+        transition: transform 0.3s;
+    }
+    .article-card:hover .card-image img { transform: scale(1.03); }
+    .card-body { padding: 20px; display: flex; flex-direction: column; flex: 1; }
+    .card-category {
+        display: inline-block; font-size: 0.75rem; font-weight: 600;
+        text-transform: uppercase; letter-spacing: 0.5px;
+        color: var(--accent); margin-bottom: 8px;
+    }
+    .card-title {
+        font-size: 1.05rem; font-weight: 600; line-height: 1.4;
+        color: var(--text-primary); margin-bottom: 8px;
+        display: -webkit-box; -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .card-excerpt {
+        font-size: 0.875rem; color: var(--text-secondary); line-height: 1.55;
+        margin-bottom: 12px; flex: 1;
+        display: -webkit-box; -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .card-date {
+        font-size: 0.8rem; color: var(--text-muted); margin-top: auto;
+    }
+
+    /* Ad slots */
+    [data-ad-slot] {
+        margin: 24px 0; min-height: 0;
+    }
+    [data-ad-slot]:empty { display: none; margin: 0; min-height: 0; height: 0; }
+
+    /* Search results */
+    .search-banner {
+        display: none; margin-bottom: 24px; padding: 12px 16px;
+        background: #fff8f3; border: 1px solid rgba(255,107,53,0.2);
+        border-radius: 8px; font-size: 0.9rem; color: var(--text-secondary);
+    }
+    .search-banner button {
+        margin-left: 12px; background: var(--accent); color: #fff;
+        border: none; padding: 4px 12px; border-radius: 4px;
+        cursor: pointer; font-size: 0.8rem;
+    }
+
+    /* Pagination */
+    .pagination {
+        display: flex; justify-content: center; align-items: center;
+        gap: 6px; margin-top: 40px; flex-wrap: wrap;
+    }
+    .page-btn {
+        display: inline-flex; align-items: center; justify-content: center;
+        min-width: 36px; height: 36px; padding: 0 10px;
+        border-radius: 6px; font-size: 0.875rem; font-weight: 500;
+        color: var(--text-secondary); background: var(--bg-white);
+        border: 1px solid var(--border); transition: all 0.2s; cursor: pointer;
+    }
+    .page-btn:hover:not(.disabled):not(.active) {
+        border-color: var(--accent); color: var(--accent);
+    }
+    .page-btn.active {
+        background: var(--accent); color: #fff; border-color: var(--accent);
+    }
+    .page-btn.disabled { opacity: 0.4; cursor: default; pointer-events: none; }
+
+    /* Skeleton loading */
+    .skeleton-card {
+        background: var(--bg-white); border-radius: var(--radius);
+        box-shadow: var(--shadow-sm); overflow: hidden;
+    }
+    .skeleton-img {
+        width: 100%; aspect-ratio: 16/9;
+        background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+        background-size: 200% 100%;
+        animation: shimmer 1.5s infinite;
+    }
+    .skeleton-body { padding: 20px; }
+    .skeleton-line {
+        height: 12px; border-radius: 4px; margin-bottom: 10px;
+        background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+        background-size: 200% 100%;
+        animation: shimmer 1.5s infinite;
+    }
+    .skeleton-line:nth-child(1) { width: 40%; }
+    .skeleton-line:nth-child(2) { width: 90%; height: 16px; }
+    .skeleton-line:nth-child(3) { width: 100%; }
+    .skeleton-line:nth-child(4) { width: 60%; }
+    @keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
+
+    /* Footer */
+    .footer{background:#1a1a1a;color:#ccc;padding:3rem 0 0;margin-top:3rem}
+    .footer-content{max-width:1280px;margin:0 auto;padding:0 2rem;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:2rem}
+    .footer-section h4{color:#fff;font-size:.9rem;font-weight:600;margin-bottom:1rem;text-transform:uppercase;letter-spacing:.05em}
+    .footer-section p{font-size:.88rem;line-height:1.6;color:#999}
+    .footer-section ul{list-style:none;padding:0;margin:0}
+    .footer-section li{margin-bottom:.5rem}
+    .footer-section a{color:#999;text-decoration:none;font-size:.88rem;transition:color .2s}
+    .footer-section a:hover{color:#ff6b35}
+    .footer-bottom{max-width:1280px;margin:0 auto;padding:1.5rem 2rem;border-top:1px solid #333;text-align:center}
+    .footer-bottom p{font-size:.82rem;color:#777;margin:0}
+    @media(max-width:768px){.footer-content{grid-template-columns:1fr 1fr;gap:1.5rem}}
+    @media(max-width:480px){.footer-content{grid-template-columns:1fr}}
+
+    /* Back to top */
+    .back-to-top {
+        position: fixed; bottom: 24px; right: 24px;
+        width: 40px; height: 40px; border-radius: 50%;
+        background: var(--accent); color: #fff; border: none;
+        font-size: 1.2rem; cursor: pointer; opacity: 0;
+        visibility: hidden; transition: opacity 0.3s, visibility 0.3s, transform 0.2s;
+        box-shadow: 0 2px 8px rgba(255,107,53,0.3);
+        z-index: 999;
+    }
+    .back-to-top.visible { opacity: 1; visibility: visible; }
+    .back-to-top:hover { transform: translateY(-2px); }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        .header-nav, .header-search { display: none; }
+        .menu-toggle { display: flex; }
+        .hero { padding: 40px 20px 32px; }
+        .hero h1 { font-size: 1.75rem; }
+        .hero p { font-size: 1rem; }
+        .featured-grid { grid-template-columns: 1fr; }
+        .featured-main .card-image { min-height: 200px; }
+        .article-grid { grid-template-columns: 1fr; }
+        .footer-links { gap: 24px; }
+        .section { margin-bottom: 40px; }
+    }
+    @media (min-width: 769px) and (max-width: 1024px) {
+        .article-grid { grid-template-columns: repeat(2, 1fr); }
+        .featured-grid { grid-template-columns: 60% 1fr; }
+    }
+    </style>
 </head>
 <body>
-    <!-- ===== HEADER ===== -->
-    <header class="tech-header" id="siteHeader">
+    <!-- Header -->
+    <header class="header">
         <div class="header-inner">
-            <a href="/" class="tech-logo">
-                <svg viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg" width="160" height="32">
-                    <rect x="2" y="6" width="28" height="28" rx="6" fill="#ff6b35"/>
-                    <text x="7" y="27" font-size="16" font-weight="900" fill="#fff" font-family="monospace">{"}"}</text>
-                    <text x="38" y="28" font-size="20" font-weight="800" fill="#1a1a2e" font-family="-apple-system, sans-serif">Hello</text>
-                    <text x="96" y="28" font-size="20" font-weight="800" fill="#ff6b35" font-family="-apple-system, sans-serif">Insights</text>
+            <a href="index.html" class="logo" aria-label="HelloInsights Home">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 58" width="150" height="48" role="img" aria-label="HelloInsights logo">
+                    <defs>
+                        <linearGradient id="og" x1="0" y1="0" x2="0.9" y2="1">
+                            <stop offset="0%" stop-color="#FFB13B"/>
+                            <stop offset="100%" stop-color="#FF4B12"/>
+                        </linearGradient>
+                        <linearGradient id="hl" x1="0" y1="0" x2="0" y2="1">
+                            <stop offset="0%" stop-color="#1B252B"/>
+                            <stop offset="100%" stop-color="#111A20"/>
+                        </linearGradient>
+                    </defs>
+                    <path d="M7.2 11.5 C7.2 8.3 9.8 5.8 13 5.8 H39.3 C42.5 5.8 45 8.3 45 11.5 V36.8 C45 40 42.5 42.5 39.3 42.5 H22.2 L16.5 47.3 C15.8 47.9 14.7 47.4 14.7 46.5 V42.5 H13 C9.8 42.5 7.2 40 7.2 36.8 Z" fill="url(#og)"/>
+                    <path d="M15.4 12.7 H20.8 V21.2 H28.8 V12.7 H34.2 V35.5 H28.8 V26.4 H20.8 V35.5 H15.4 Z" fill="#FFFFFF"/>
+                    <g fill="#FF9B27">
+                        <rect x="36.3" y="4.2" width="2.2" height="2.2" rx="0.35"/>
+                        <rect x="42.0" y="2.8" width="1.9" height="1.9" rx="0.3"/>
+                        <rect x="39.4" y="7.5" width="2.0" height="2.0" rx="0.3"/>
+                        <rect x="45.0" y="6.3" width="1.6" height="1.6" rx="0.25"/>
+                        <rect x="35.0" y="9.1" width="1.6" height="1.6" rx="0.25"/>
+                        <rect x="42.5" y="10.5" width="2.0" height="2.0" rx="0.3"/>
+                        <rect x="46.8" y="11.8" width="1.4" height="1.4" rx="0.2"/>
+                        <rect x="38.2" y="13.1" width="1.5" height="1.5" rx="0.2"/>
+                    </g>
+                    <text x="53.5" y="35.2" font-family="Arial,Helvetica,sans-serif" font-size="17.2" font-weight="700" letter-spacing="-0.75" fill="url(#hl)">Hello</text>
+                    <text x="100.5" y="35.2" font-family="Arial,Helvetica,sans-serif" font-size="17.2" font-weight="700" letter-spacing="-0.75" fill="#FF4B12">Insights</text>
                 </svg>
-                <span class="header-badge">Technology</span>
             </a>
-            <nav class="tech-nav" id="mainNav">
-                <a href="index.html?cat=ai">AI</a>
-                <a href="index.html?cat=software">Software</a>
-                <a href="index.html?cat=cybersecurity">Cybersecurity</a>
-                <a href="index.html?cat=gadgets">Gadgets</a>
-                <a href="index.html?cat=developer">Developer</a>
-                <a href="index.html?cat=future-tech">Future Tech</a>
-            </nav>
-            <div class="header-actions">
-                <button class="search-toggle" id="searchToggle" aria-label="Search">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
-                </button>
-                <button class="menu-toggle" id="menuToggle" aria-label="Menu">
-                    <span></span><span></span><span></span>
-                </button>
+            <div class="header-nav">
+                <a href="category.html?cat=technology">Technology</a>
+                <a href="category.html?cat=finance">Finance</a>
+                <a href="category.html?cat=ai-tools">AI</a>
+                <a href="category.html?cat=health-lifestyle">Health &amp; Lifestyle</a>
             </div>
+            <div class="header-search">
+                <input type="text" placeholder="Search articles..." id="searchInput" aria-label="Search articles">
+                <button type="button" id="searchBtn" aria-label="Search">🔍</button>
+            </div>
+            <button class="menu-toggle" id="menuToggle" onclick="toggleMenu()" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
         </div>
-        <div class="search-bar" id="searchBar" style="display:none">
-            <input type="text" id="searchInput" placeholder="Search Technology articles..." aria-label="Search">
-            <button id="searchClose" aria-label="Close search">&times;</button>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="category.html?cat=technology">Technology</a>
+            <a href="category.html?cat=finance">Finance</a>
+            <a href="category.html?cat=ai-tools">AI</a>
+            <a href="category.html?cat=health-lifestyle">Health &amp; Lifestyle</a>
+            <div class="mobile-search">
+                <input type="text" placeholder="Search articles..." id="mobileSearchInput" aria-label="Search articles">
+            </div>
         </div>
     </header>
 
-    <!-- ===== HERO ===== -->
-    <section class="tech-hero">
-        <div class="hero-content">
-            <h1>Technology Insights<br>for the Digital World</h1>
-            <p>Explore the latest breakthroughs in AI, software, cybersecurity, and digital innovation.</p>
-            <a href="#latest" class="hero-cta">Explore Technology Topics</a>
-        </div>
-        <div class="hero-grid-bg"></div>
-    </section>
+    <!-- Ad: native-top -->
+    <div data-ad-slot="native-top"></div>
 
-    <!-- ===== EDITORIAL INTRO ===== -->
-    <section class="editorial-intro">
-        <div class="container">
-            <h2 class="section-eyebrow">Our Perspective</h2>
-            <div class="editorial-text" id="editorialText"></div>
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-inner">
+            <h1>What's Worth Knowing</h1>
+            <p>Tech, finance, AI and everyday topics, explained simply.</p>
+            <a href="#latest-section" class="hero-cta">Read the Latest</a>
         </div>
     </section>
 
-    <!-- ===== FEATURED STORIES ===== -->
-    <section class="featured-section">
-        <div class="container">
-            <h2 class="section-title">Featured Technology Stories</h2>
-            <div class="featured-grid" id="featuredGrid"></div>
-        </div>
-    </section>
-
-    <!-- ===== AD: Banner Mid 1 ===== -->
-    <div class="ad-slot" id="ad-banner-mid-1" data-ad-slot="banner-mid-1"></div>
-
-    <!-- ===== LATEST TECHNOLOGY ===== -->
-    <section class="latest-section" id="latest">
-        <div class="container">
-            <h2 class="section-title">Latest Technology</h2>
-            <div class="latest-list" id="latestList"></div>
-            <button class="load-more-btn" id="loadMoreBtn" style="display:none">Load More Stories</button>
-        </div>
-    </section>
-
-    <!-- ===== AD: Banner Mid 2 ===== -->
-    <div class="ad-slot" id="ad-banner-mid-2" data-ad-slot="banner-mid-2"></div>
-
-    <!-- ===== CATEGORY SECTIONS ===== -->
-    <div id="categorySections"></div>
-
-    <!-- ===== MOST READ ===== -->
-    <section class="most-read-section">
-        <div class="container">
-            <h2 class="section-title">Most Read</h2>
-            <ol class="most-read-list" id="mostReadList"></ol>
-        </div>
-    </section>
-
-    <!-- ===== NEWSLETTER ===== -->
-    <section class="newsletter-section">
-        <div class="container">
-            <div class="newsletter-inner">
-                <h2>Stay Ahead of the Curve</h2>
-                <p>Get the week's most important technology stories delivered to your inbox every Friday.</p>
-                <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thank you! You\'ll receive our next digest.');">
-                    <input type="email" placeholder="your@email.com" required aria-label="Email address">
-                    <button type="submit">Subscribe</button>
-                </form>
+    <!-- Main Content -->
+    <div class="main">
+        <!-- Featured -->
+        <section class="section" id="featured-section">
+            <div class="section-header">
+                <h2>Featured</h2>
+                <a href="#" class="view-all" id="featuredViewAll">View all &rarr;</a>
             </div>
-        </div>
-    </section>
-
-    <!-- ===== AD: Banner Bottom ===== -->
-    <div class="ad-slot" id="ad-banner-bottom" data-ad-slot="banner-bottom"></div>
-
-    <!-- ===== FOOTER ===== -->
-    <footer class="tech-footer">
-        <div class="footer-inner">
-            <div class="footer-brand">
-                <strong>HelloInsights Technology</strong>
-                <p>Editorial-grade technology coverage for the digital world.</p>
+            <div id="featuredGrid">
+                <div class="featured-grid">
+                    <div class="skeleton-card"><div class="skeleton-img"></div><div class="skeleton-body"><div class="skeleton-line"></div><div class="skeleton-line"></div><div class="skeleton-line"></div><div class="skeleton-line"></div></div></div>
+                    <div class="featured-side">
+                        <div class="skeleton-card"><div class="skeleton-img"></div><div class="skeleton-body"><div class="skeleton-line"></div><div class="skeleton-line"></div><div class="skeleton-line"></div></div></div>
+                        <div class="skeleton-card"><div class="skeleton-img"></div><div class="skeleton-body"><div class="skeleton-line"></div><div class="skeleton-line"></div><div class="skeleton-line"></div></div></div>
+                    </div>
+                </div>
             </div>
-            <div class="footer-col">
-                <h4>Topics</h4>
-                <ul id="footerTopics"></ul>
+        </section>
+
+        <!-- Ad: banner-mid (between featured and first category) -->
+        <div data-ad-slot="banner-mid"></div>
+
+        <!-- Technology -->
+        <section class="section" id="section-technology">
+            <div class="section-header">
+                <h2>Technology</h2>
+                <a href="category.html?cat=technology" class="view-all">View all &rarr;</a>
             </div>
-            <div class="footer-col">
-                <h4>More</h4>
+            <p class="section-desc">Hardware, software, startups and the tools shaping daily life.</p>
+            <div class="article-grid" id="gridTechnology"></div>
+        </section>
+
+        <!-- Finance -->
+        <section class="section" id="section-finance">
+            <div class="section-header">
+                <h2>Finance</h2>
+                <a href="category.html?cat=finance" class="view-all">View all &rarr;</a>
+            </div>
+            <p class="section-desc">Markets, money moves and the numbers behind what you spend.</p>
+            <div class="article-grid" id="gridFinance"></div>
+        </section>
+
+        <!-- AI -->
+        <section class="section" id="section-ai">
+            <div class="section-header">
+                <h2>AI</h2>
+                <a href="category.html?cat=ai-tools" class="view-all">View all &rarr;</a>
+            </div>
+            <p class="section-desc">AI news, tools, products and practical use cases.</p>
+            <div class="article-grid" id="gridAi"></div>
+        </section>
+
+        <!-- Health & Lifestyle -->
+        <section class="section" id="section-health">
+            <div class="section-header">
+                <h2>Health &amp; Lifestyle</h2>
+                <a href="category.html?cat=health-lifestyle" class="view-all">View all &rarr;</a>
+            </div>
+            <p class="section-desc">Wellness, fitness, food and the habits that add up.</p>
+            <div class="article-grid" id="gridHealth"></div>
+        </section>
+
+        <!-- Latest -->
+        <section class="section" id="latest-section">
+            <div class="section-header">
+                <h2>Latest</h2>
+            </div>
+            <div class="search-banner" id="searchBanner">
+                <span id="searchText"></span>
+                <button onclick="clearSearch()">Clear</button>
+            </div>
+            <div class="article-grid" id="latestGrid"></div>
+            <div class="pagination" id="pagination"></div>
+        </section>
+
+        <!-- Ad: banner-bottom -->
+        <div data-ad-slot="banner-bottom"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About HelloInsights</h4>
+                <p>Stories, ideas and useful context for a changing digital world.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
                 <ul>
-                    <li><a href="https://helloinsights.online" target="_blank">HelloInsights Main</a></li>
-                    <li><a href="https://finance.helloinsights.online" target="_blank">Finance</a></li>
+                    <li><a href="category.html?cat=technology">Technology</a></li>
+                    <li><a href="category.html?cat=finance">Finance</a></li>
+                    <li><a href="category.html?cat=ai-tools">AI</a></li>
+                    <li><a href="category.html?cat=health-lifestyle">Health &amp; Lifestyle</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="privacy.html">Privacy</a></li>
+                    <li><a href="terms.html">Terms</a></li>
                 </ul>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2025 HelloInsights. All rights reserved.</p>
+            <p>&copy; <script>document.write(new Date().getFullYear())</script> HelloInsights. All rights reserved.</p>
         </div>
     </footer>
 
-    <!-- Ads -->
-    <script src="ads-config.js"></script>
-    <script src="ads.js"></script>
+    <!-- Back to top -->
+    <button class="back-to-top" id="backToTop" onclick="scrollToTop()" aria-label="Back to top">&uarr;</button>
 
     <script>
-    (function() {
-        'use strict';
-        var allArticles = [];
-        var filteredArticles = [];
-        var usedIds = {};
-        var latestShown = 0;
-        var latestPerBatch = 8;
-        var currentCat = '';
+    /* ========================================
+       HelloInsights - Main Page Script (ES5)
+       ======================================== */
 
-        // Read category from URL
-        var params = new URLSearchParams(window.location.search);
-        currentCat = params.get('cat') || '';
+    // Service worker
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js').catch(function() {});
+    }
 
-        function markUsed(id) { usedIds[id] = true; }
-        function isUsed(id) { return !!usedIds[id]; }
+    // --- Config ---
+    var ARTICLES_PER_PAGE = 9;
+    var CATEGORY_PAGESIZE = 3;
+    var currentPage = 1;
+    var allArticles = [];
+    var categoryArticles = {
+        'technology': [],
+        'finance': [],
+        'ai-tools': [],
+        'health-lifestyle': []
+    };
+    var isSearching = false;
+    var searchQuery = '';
+    var filteredArticles = [];
 
-        // Highlight active nav link
-        if (currentCat) {
-            var navLinks = document.querySelectorAll('#mainNav a');
-            navLinks.forEach(function(link) {
-                if (link.getAttribute('href') === 'index.html?cat=' + currentCat) {
-                    link.classList.add('active');
+    var categoryNames = {
+        'technology': 'Technology',
+        'finance': 'Finance',
+        'ai-tools': 'AI',
+        'health-lifestyle': 'Health & Lifestyle'
+    };
+
+    var fallbackImages = {
+        'technology': 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=338&fit=crop',
+        'finance': 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=338&fit=crop',
+        'ai-tools': 'https://images.unsplash.com/photo-1677442136019-21780ecf9952?w=600&h=338&fit=crop',
+        'health-lifestyle': 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=600&h=338&fit=crop'
+    };
+    var defaultFallback = 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=338&fit=crop';
+
+    // --- Image Deduplication ---
+    var usedImageIds = {};
+
+    var imagePool = {
+        'technology': [
+            'https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1537432376149-e84978a0797e?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1563770660941-20978e872556?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1510915361894-d89a3046a080?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1524638431109-93d95c968f03?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=600&h=338&fit=crop'
+        ],
+        'finance': [
+            'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1604594849809-dfedbc827105?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1526304654461-830e39fabc9a?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1596870280797-d91b20e7f8fd?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1633114128174-2f8aa49759b0?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1573408301184-97a6405877a7?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1612268930342-fd18be15063e?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1559526324-597bc228a044?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1607297115812-5663ae101162?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1578321272125-2d5c8e5e4d5b?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1544725176-7c40e128714f?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1589994662622-67a2f0e37a19?w=600&h=338&fit=crop'
+        ],
+        'ai-tools': [
+            'https://images.unsplash.com/photo-1677442136019-21780ecf9952?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1721322800607-8539c4aa9f92?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1676299081847-824916de030a?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1516110833967-0b8c1f0e3b8d?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1655720828018-edd2da095b5c?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1685094488371-7e45f29e969b?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1580927752452-89d8673fae50?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1675426513962-63c75ca14a8f?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1655631917818-8ff1655c31c3?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1580927752452-89d8673fae50?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1695237871166-b05a6b7d3e8d?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1696446702183-cbd12541e08e?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1680743339132-1e594a4a7a0e?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?w=600&h=338&fit=crop'
+        ],
+        'health-lifestyle': [
+            'https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1511909525232-61113c912358?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1574484284002-952235e0b8e0?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1447452001602-7090c7ab2db3?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1494599964567-343b3f7a20a4?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1495197359483-d092478c170a?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1543362906-acfc16c67565?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1515894274780-4f60c2b64a80?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1470259078422-826894b933aa?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=600&h=338&fit=crop',
+            'https://images.unsplash.com/photo-1541233349642-6e425fe6190e?w=600&h=338&fit=crop'
+        ]
+    };
+    var imagePoolIndex = {
+        'technology': 0,
+        'finance': 0,
+        'ai-tools': 0,
+        'health-lifestyle': 0
+    };
+
+    function extractUnsplashId(url) {
+        if (!url || url.indexOf('images.unsplash.com/') === -1) return null;
+        var match = url.match(/photo-[A-Za-z0-9]+/);
+        return match ? match[0] : null;
+    }
+
+    function getUniqueImage(article) {
+        var img = sanitizeUrl(article.image);
+        var cat = article.category || '';
+        var imgId = extractUnsplashId(img);
+
+        // If image is valid and not used yet, use it
+        if (img && imgId && !usedImageIds[imgId]) {
+            usedImageIds[imgId] = true;
+            return img;
+        }
+
+        // Image is empty or duplicate — pick from the category pool (round-robin)
+        var pool = imagePool[cat] || imagePool['technology'];
+        var poolLen = pool.length;
+        // Try each image in pool at most once
+        for (var attempt = 0; attempt < poolLen; attempt++) {
+            var idx = imagePoolIndex[cat] % poolLen;
+            imagePoolIndex[cat] = idx + 1;
+            var poolImg = pool[idx];
+            var poolId = extractUnsplashId(poolImg);
+            if (poolId && !usedImageIds[poolId]) {
+                usedImageIds[poolId] = true;
+                return poolImg;
+            }
+        }
+
+        // Pool exhausted — reset usedImageIds for pool images and try again
+        // This means we'll repeat some pool images, but they are diverse enough
+        for (var j = 0; j < poolLen; j++) {
+            var pIdx = imagePoolIndex[cat] % poolLen;
+            imagePoolIndex[cat] = pIdx + 1;
+            var pImg = pool[pIdx];
+            var pId = extractUnsplashId(pImg);
+            if (pId) {
+                usedImageIds[pId] = false; // allow reuse
+                usedImageIds[pId] = true;
+                return pImg;
+            }
+        }
+
+        // Absolute last resort
+        return getFallbackImage(cat);
+    }
+
+    // --- XSS Protection ---
+    function sanitizeStr(s) {
+        if (typeof s !== 'string') return '';
+        var d = document.createElement('div');
+        d.appendChild(document.createTextNode(s));
+        return d.innerHTML;
+    }
+    function sanitizeUrl(u) {
+        if (typeof u !== 'string') return '';
+        u = u.trim();
+        if (u.indexOf('javascript:') === 0 || u.indexOf('data:') === 0 || u.indexOf('vbscript:') === 0) {
+            return '';
+        }
+        return u.replace(/["'<>]/g, '');
+    }
+
+    // --- Utilities ---
+    function getFallbackImage(cat) {
+        return fallbackImages[cat] || defaultFallback;
+    }
+
+    function generateArticleDate(id) {
+        var start = new Date('2026-01-01').getTime();
+        var offset = (id % 180) * 86400000;
+        var d = new Date(start + offset);
+        var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+        return months[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
+    }
+
+    // --- Card Rendering ---
+    function createCardHTML(article) {
+        var cat = categoryNames[article.category] || sanitizeStr(article.category);
+        var title = sanitizeStr(article.title);
+        var excerpt = sanitizeStr(article.excerpt);
+        var img = getUniqueImage(article);
+        var fb = getFallbackImage(article.category);
+        var date = generateArticleDate(article.id);
+        var url = 'article.html?id=' + article.id;
+
+        return '<article class="article-card" onclick="window.location.href=\'' + url + '\'" role="link" tabindex="0">' +
+            '<div class="card-image"><img src="' + img + '" alt="' + title + '" width="600" height="338" loading="lazy" decoding="async" onerror="this.src=\'' + fb + '\'"></div>' +
+            '<div class="card-body">' +
+            '<span class="card-category">' + cat + '</span>' +
+            '<h3 class="card-title">' + title + '</h3>' +
+            '<p class="card-excerpt">' + excerpt + '</p>' +
+            '<div class="card-date">' + sanitizeStr(date) + '</div>' +
+            '</div></article>';
+    }
+
+    function createFeaturedCardHTML(article, isMain) {
+        var cat = categoryNames[article.category] || sanitizeStr(article.category);
+        var title = sanitizeStr(article.title);
+        var excerpt = sanitizeStr(article.excerpt);
+        var img = getUniqueImage(article);
+        var fb = getFallbackImage(article.category);
+        var date = generateArticleDate(article.id);
+        var url = 'article.html?id=' + article.id;
+
+        var cardClass = isMain ? 'article-card featured-main' : 'article-card';
+
+        return '<article class="' + cardClass + '" onclick="window.location.href=\'' + url + '\'" role="link" tabindex="0">' +
+            '<div class="card-image"><img src="' + img + '" alt="' + title + '" width="600" height="338" loading="lazy" decoding="async" onerror="this.src=\'' + fb + '\'"></div>' +
+            '<div class="card-body">' +
+            '<span class="card-category">' + cat + '</span>' +
+            '<h3 class="card-title">' + title + '</h3>' +
+            (isMain ? '<p class="card-excerpt">' + excerpt + '</p>' : '') +
+            '<div class="card-date">' + sanitizeStr(date) + '</div>' +
+            '</div></article>';
+    }
+
+    // --- Skeleton ---
+    function skeletonCard() {
+        return '<div class="skeleton-card"><div class="skeleton-img"></div>' +
+            '<div class="skeleton-body"><div class="skeleton-line"></div>' +
+            '<div class="skeleton-line"></div><div class="skeleton-line"></div>' +
+            '<div class="skeleton-line"></div></div></div>';
+    }
+
+    function showSkeletons(el, count) {
+        if (!el) return;
+        var h = '';
+        for (var i = 0; i < count; i++) h += skeletonCard();
+        el.innerHTML = h;
+    }
+
+    // --- Featured ---
+    function renderFeatured() {
+        var grid = document.getElementById('featuredGrid');
+        if (!grid || allArticles.length < 3) return;
+        var latest = allArticles.slice(0, 3);
+        var main = latest[0];
+        var side1 = latest[1];
+        var side2 = latest[2];
+
+        var html = '<div class="featured-grid">' +
+            createFeaturedCardHTML(main, true) +
+            '<div class="featured-side">' +
+            createFeaturedCardHTML(side1, false) +
+            createFeaturedCardHTML(side2, false) +
+            '</div></div>';
+        grid.innerHTML = html;
+    }
+
+    // --- Category Sections ---
+    function renderCategorySection(catKey, gridId) {
+        var el = document.getElementById(gridId);
+        if (!el) return;
+        var arts = categoryArticles[catKey] || [];
+        if (arts.length === 0) {
+            el.innerHTML = '<p style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--text-muted);">No articles yet.</p>';
+            return;
+        }
+        var items = arts.slice(0, CATEGORY_PAGESIZE);
+        var h = '';
+        for (var i = 0; i < items.length; i++) {
+            h += createCardHTML(items[i]);
+        }
+        el.innerHTML = h;
+    }
+
+    // --- Pagination ---
+    function renderPagination(total) {
+        var pages = Math.ceil(total / ARTICLES_PER_PAGE);
+        var el = document.getElementById('pagination');
+        if (!el) return;
+        if (pages <= 1) { el.innerHTML = ''; return; }
+
+        var h = '';
+        if (currentPage > 1) {
+            h += '<a href="javascript:void(0)" class="page-btn" onclick="changePage(' + (currentPage - 1) + ');return false;">&lsaquo;</a>';
+        } else {
+            h += '<span class="page-btn disabled">&lsaquo;</span>';
+        }
+
+        var range = 2;
+        var s = Math.max(2, currentPage - range);
+        var e = Math.min(pages - 1, currentPage + range);
+
+        if (currentPage === 1) {
+            h += '<span class="page-btn active">1</span>';
+        } else {
+            h += '<a href="javascript:void(0)" class="page-btn" onclick="changePage(1);return false;">1</a>';
+        }
+        if (s > 2) h += '<span class="page-btn disabled" style="cursor:default;">&hellip;</span>';
+        for (var i = s; i <= e; i++) {
+            if (i === currentPage) {
+                h += '<span class="page-btn active">' + i + '</span>';
+            } else {
+                h += '<a href="javascript:void(0)" class="page-btn" onclick="changePage(' + i + ');return false;">' + i + '</a>';
+            }
+        }
+        if (e < pages - 1) h += '<span class="page-btn disabled" style="cursor:default;">&hellip;</span>';
+        if (currentPage === pages) {
+            h += '<span class="page-btn active">' + pages + '</span>';
+        } else {
+            h += '<a href="javascript:void(0)" class="page-btn" onclick="changePage(' + pages + ');return false;">' + pages + '</a>';
+        }
+        if (currentPage < pages) {
+            h += '<a href="javascript:void(0)" class="page-btn" onclick="changePage(' + (currentPage + 1) + ');return false;">&rsaquo;</a>';
+        } else {
+            h += '<span class="page-btn disabled">&rsaquo;</span>';
+        }
+        el.innerHTML = h;
+    }
+
+    function changePage(p) {
+        var totalArticles = isSearching ? filteredArticles.length : allArticles.length;
+        var maxPage = Math.ceil(totalArticles / ARTICLES_PER_PAGE);
+        if (p < 1 || p > maxPage) return;
+        currentPage = p;
+        renderLatest();
+        var target = document.getElementById('latest-section');
+        if (target) {
+            window.scrollTo({ top: target.offsetTop - 80, behavior: 'smooth' });
+        }
+    }
+
+    // --- Latest Section ---
+    function renderLatest() {
+        var grid = document.getElementById('latestGrid');
+        if (!grid) return;
+        var source = isSearching ? filteredArticles : allArticles;
+        if (source.length === 0) {
+            grid.innerHTML = '<p style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--text-muted);">No articles found.</p>';
+            document.getElementById('pagination').innerHTML = '';
+            return;
+        }
+        var start = (currentPage - 1) * ARTICLES_PER_PAGE;
+        var page = source.slice(start, start + ARTICLES_PER_PAGE);
+        var h = '';
+        for (var i = 0; i < page.length; i++) {
+            h += createCardHTML(page[i]);
+        }
+        grid.innerHTML = h;
+        renderPagination(source.length);
+    }
+
+    // --- Search ---
+    function handleSearch(query) {
+        var q = (query || '').trim();
+        if (!q) { clearSearch(); return; }
+        searchQuery = q;
+        isSearching = true;
+        currentPage = 1;
+        var lq = q.toLowerCase();
+        filteredArticles = allArticles.filter(function(a) {
+            var cn = categoryNames[a.category] || a.category;
+            return a.title.toLowerCase().indexOf(lq) !== -1 ||
+                   a.excerpt.toLowerCase().indexOf(lq) !== -1 ||
+                   a.category.toLowerCase().indexOf(lq) !== -1 ||
+                   cn.toLowerCase().indexOf(lq) !== -1;
+        });
+        var banner = document.getElementById('searchBanner');
+        var text = document.getElementById('searchText');
+        if (banner && text) {
+            banner.style.display = 'block';
+            text.textContent = 'Found ' + filteredArticles.length + ' results for "' + q + '"';
+        }
+        renderLatest();
+    }
+
+    function clearSearch() {
+        isSearching = false;
+        searchQuery = '';
+        currentPage = 1;
+        var input = document.getElementById('searchInput');
+        var mInput = document.getElementById('mobileSearchInput');
+        if (input) input.value = '';
+        if (mInput) mInput.value = '';
+        var banner = document.getElementById('searchBanner');
+        if (banner) banner.style.display = 'none';
+        renderLatest();
+    }
+
+    function initSearch() {
+        var input = document.getElementById('searchInput');
+        var btn = document.getElementById('searchBtn');
+        var mInput = document.getElementById('mobileSearchInput');
+
+        if (input) {
+            input.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') { e.preventDefault(); handleSearch(input.value); }
+            });
+        }
+        if (btn) {
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                handleSearch(input ? input.value : '');
+            });
+        }
+        if (mInput) {
+            mInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    handleSearch(mInput.value);
+                    toggleMenu();
                 }
             });
         }
+    }
 
-        // Load data
-        var jsonFile = (typeof SITE_CONFIG !== 'undefined') ? SITE_CONFIG.jsonFile : 'technology-index.json';
-        fetch(jsonFile, { cache: 'no-cache' })
-            .then(function(r) { return r.json(); })
-            .then(function(data) {
-                allArticles = data.articles || [];
-                allArticles.sort(function(a, b) { return new Date(b.date) - new Date(a.date); });
+    // --- Mobile Menu ---
+    function toggleMenu() {
+        var menu = document.getElementById('mobileMenu');
+        var toggle = document.getElementById('menuToggle');
+        if (menu) menu.classList.toggle('open');
+        if (toggle) toggle.classList.toggle('open');
+    }
 
-                // Filter by category if specified
-                if (currentCat) {
-                    filteredArticles = allArticles.filter(function(a) { return a.subcategory === currentCat; });
-                    // Update page title and hero for category view
-                    var catInfo = null;
-                    if (typeof SITE_CONFIG !== 'undefined') {
-                        SITE_CONFIG.subcategories.forEach(function(sub) {
-                            if (sub.id === currentCat) catInfo = sub;
-                        });
+    // --- Back to top ---
+    function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function handleScroll() {
+        var btn = document.getElementById('backToTop');
+        if (!btn) return;
+        if (window.scrollY > 400) {
+            btn.classList.add('visible');
+        } else {
+            btn.classList.remove('visible');
+        }
+    }
+
+    // --- Data Loading ---
+    function loadData() {
+        // Show skeletons
+        showSkeletons(document.getElementById('gridTechnology'), 3);
+        showSkeletons(document.getElementById('gridFinance'), 3);
+        showSkeletons(document.getElementById('gridAi'), 3);
+        showSkeletons(document.getElementById('gridHealth'), 3);
+        showSkeletons(document.getElementById('latestGrid'), 6);
+
+        fetch('articles-index.json?v=' + Date.now())
+            .then(function(r) {
+                if (!r.ok) throw new Error('Index HTTP ' + r.status);
+                return r.json();
+            })
+            .then(function(index) {
+                var v = index.v || Date.now();
+                return Promise.all([
+                    fetch('articles-technology.json?v=' + v).then(function(r) { return r.json(); }),
+                    fetch('articles-finance.json?v=' + v).then(function(r) { return r.json(); }),
+                    fetch('articles-ai-tools.json?v=' + v).then(function(r) { return r.json(); }),
+                    fetch('articles-health-lifestyle.json?v=' + v).then(function(r) { return r.json(); })
+                ]);
+            })
+            .then(function(results) {
+                var catKeys = ['technology', 'finance', 'ai-tools', 'health-lifestyle'];
+                for (var i = 0; i < results.length; i++) {
+                    var arts = results[i].articles || [];
+                    categoryArticles[catKeys[i]] = arts.sort(function(a, b) { return b.id - a.id; });
+                    for (var j = 0; j < arts.length; j++) {
+                        allArticles.push(arts[j]);
                     }
-                    if (catInfo) {
-                        document.title = catInfo.name + ' - HelloInsights Technology';
-                        var metaDesc = document.querySelector('meta[name="description"]');
-                        if (metaDesc) metaDesc.setAttribute('content', catInfo.desc);
-                        // Update hero
-                        var heroH1 = document.querySelector('.tech-hero h1');
-                        var heroP = document.querySelector('.tech-hero p');
-                        var heroCta = document.querySelector('.hero-cta');
-                        if (heroH1) heroH1.innerHTML = catInfo.name;
-                        if (heroP) heroP.textContent = catInfo.desc;
-                        if (heroCta) { heroCta.textContent = 'Browse ' + catInfo.name; heroCta.href = '#latest'; }
-                        // Update section titles
-                        var latestTitle = document.querySelector('.latest-section .section-title');
-                        if (latestTitle) latestTitle.textContent = 'Latest ' + catInfo.name;
-                        var featuredTitle = document.querySelector('.featured-section .section-title');
-                        if (featuredTitle) featuredTitle.textContent = 'Featured ' + catInfo.name;
-                    }
-                } else {
-                    filteredArticles = allArticles;
                 }
+                // Sort all by ID descending
+                allArticles.sort(function(a, b) { return b.id - a.id; });
 
-                renderEditorial();
+                // Render everything
                 renderFeatured();
-                renderLatest(true);
-                if (!currentCat) {
-                    renderCategorySections();
-                } else {
-                    // In category view, hide the multi-category sections
-                    var catSections = document.getElementById('categorySections');
-                    if (catSections) catSections.style.display = 'none';
-                }
-                renderMostRead();
-                renderFooterTopics();
+                renderCategorySection('technology', 'gridTechnology');
+                renderCategorySection('finance', 'gridFinance');
+                renderCategorySection('ai-tools', 'gridAi');
+                renderCategorySection('health-lifestyle', 'gridHealth');
+                renderLatest();
                 initSearch();
             })
-            .catch(function(err) { console.error('Failed to load index:', err); });
-
-        // Editorial
-        function renderEditorial() {
-            var el = document.getElementById('editorialText');
-            if (typeof SITE_CONFIG !== 'undefined') {
-                el.innerHTML = SITE_CONFIG.heroIntro;
-            }
-        }
-
-        // Featured (top 4 unused from filtered set)
-        function renderFeatured() {
-            var grid = document.getElementById('featuredGrid');
-            var featured = filteredArticles.filter(function(a) { return a.featured; });
-            if (featured.length === 0) featured = filteredArticles.slice(0, 4);
-            var html = '';
-            featured.forEach(function(art, i) {
-                markUsed(art.id);
-                var imgUrl = art.image || SITE_CONFIG.fallbackImage;
-                var cls = i === 0 ? 'featured-main' : 'featured-side';
-                html += '<article class="featured-card ' + cls + '">' +
-                    '<a href="article.html?id=' + encodeURIComponent(art.id) + '">' +
-                    '<img src="' + imgUrl + '" alt="' + esc(art.title) + '" loading="lazy" decoding="async" width="640" height="360">' +
-                    '<span class="featured-cat">' + esc(art.category) + '</span>' +
-                    '<h3>' + esc(art.title) + '</h3>' +
-                    '<p>' + esc(art.excerpt || '') + '</p>' +
-                    '<time>' + fmtDate(art.date) + '</time>' +
-                    '</a></article>';
-            });
-            grid.innerHTML = html;
-        }
-
-        // Latest (from filtered set, excluding already used)
-        function renderLatest(reset) {
-            var list = document.getElementById('latestList');
-            var btn = document.getElementById('loadMoreBtn');
-            if (reset) { latestShown = 0; list.innerHTML = ''; }
-            var remaining = filteredArticles.filter(function(a) { return !isUsed(a.id); });
-            var batch = remaining.slice(latestShown, latestShown + latestPerBatch);
-            if (batch.length === 0) { btn.style.display = 'none'; return; }
-            var html = '';
-            batch.forEach(function(art) {
-                markUsed(art.id);
-                latestShown++;
-                var imgUrl = art.image || SITE_CONFIG.fallbackImage;
-                html += '<article class="latest-card">' +
-                    '<a href="article.html?id=' + encodeURIComponent(art.id) + '" class="latest-img">' +
-                    '<img src="' + imgUrl + '" alt="' + esc(art.title) + '" loading="lazy" decoding="async" width="480" height="270">' +
-                    '</a>' +
-                    '<div class="latest-body">' +
-                    '<span class="latest-cat">' + esc(art.category) + '</span>' +
-                    '<h3><a href="article.html?id=' + encodeURIComponent(art.id) + '">' + esc(art.title) + '</a></h3>' +
-                    '<p>' + esc(art.excerpt || '') + '</p>' +
-                    '<time>' + fmtDate(art.date) + '</time>' +
-                    '</div></article>';
-            });
-            list.insertAdjacentHTML('beforeend', html);
-            btn.style.display = remaining.length > latestShown ? '' : 'none';
-        }
-
-        document.getElementById('loadMoreBtn').addEventListener('click', function() {
-            renderLatest(false);
-            // Scroll to top of the latest section
-            var latestSection = document.getElementById('latest');
-            if (latestSection) {
-                latestSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            }
-        });
-
-        // Category Sections
-        function renderCategorySections() {
-            var container = document.getElementById('categorySections');
-            var html = '';
-            SITE_CONFIG.subcategories.forEach(function(sub) {
-                var arts = allArticles.filter(function(a) { return a.subcategory === sub.id; }).slice(0, 3);
-                if (arts.length === 0) return;
-                var url = SITE_CONFIG.categoryUrlMap[sub.id] || 'index.html?cat=' + sub.id;
-                html += '<section class="topic-section"><div class="container">' +
-                    '<div class="topic-header"><h2>' + esc(sub.name) + '</h2><a href="' + url + '" class="view-all">View all &rarr;</a></div>' +
-                    '<div class="topic-grid">';
-                arts.forEach(function(art) {
-                    var imgUrl = art.image || SITE_CONFIG.fallbackImage;
-                    html += '<article class="topic-card">' +
-                        '<a href="article.html?id=' + encodeURIComponent(art.id) + '">' +
-                        '<img src="' + imgUrl + '" alt="' + esc(art.title) + '" loading="lazy" decoding="async" width="480" height="270">' +
-                        '<h3>' + esc(art.title) + '</h3>' +
-                        '<time>' + fmtDate(art.date) + '</time>' +
-                        '</a></article>';
-                });
-                html += '</div></div></section>';
-            });
-            container.innerHTML = html;
-        }
-
-        // Most Read (5 articles, pure text)
-        function renderMostRead() {
-            var list = document.getElementById('mostReadList');
-            var items = filteredArticles.slice(0, 5);
-            var html = '';
-            items.forEach(function(art, i) {
-                html += '<li><a href="article.html?id=' + encodeURIComponent(art.id) + '">' +
-                    '<span class="mr-num">' + (i + 1) + '</span>' +
-                    '<span class="mr-text">' + esc(art.title) + '</span>' +
-                    '</a></li>';
-            });
-            list.innerHTML = html;
-        }
-
-        // Footer
-        function renderFooterTopics() {
-            var ul = document.getElementById('footerTopics');
-            var html = '';
-            SITE_CONFIG.subcategories.forEach(function(sub) {
-                var url = SITE_CONFIG.categoryUrlMap[sub.id] || 'index.html?cat=' + sub.id;
-                html += '<li><a href="' + url + '">' + esc(sub.name) + '</a></li>';
-            });
-            ul.innerHTML = html;
-        }
-
-        // Search
-        function initSearch() {
-            var toggle = document.getElementById('searchToggle');
-            var bar = document.getElementById('searchBar');
-            var input = document.getElementById('searchInput');
-            var close = document.getElementById('searchClose');
-            toggle.addEventListener('click', function() { bar.style.display = bar.style.display === 'none' ? '' : 'none'; input.focus(); });
-            close.addEventListener('click', function() { bar.style.display = 'none'; });
-            input.addEventListener('keyup', function(e) {
-                if (e.key === 'Enter') {
-                    var q = input.value.toLowerCase().trim();
-                    if (!q) return;
-                    var results = allArticles.filter(function(a) { return a.title.toLowerCase().indexOf(q) !== -1; });
-                    if (results.length > 0) {
-                        window.location.href = 'article.html?id=' + encodeURIComponent(results[0].id);
-                    } else {
-                        alert('No articles found for: ' + input.value);
-                    }
+            .catch(function(err) {
+                console.error('Load error:', err.message);
+                var grids = ['gridTechnology', 'gridFinance', 'gridAi', 'gridHealth', 'latestGrid'];
+                for (var i = 0; i < grids.length; i++) {
+                    var el = document.getElementById(grids[i]);
+                    if (el) el.innerHTML = '<p style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--text-muted);">Unable to load articles.</p>';
                 }
             });
-        }
+    }
 
-        // Mobile menu
-        document.getElementById('menuToggle').addEventListener('click', function() {
-            document.getElementById('mainNav').classList.toggle('nav-open');
+    // --- Config loader callback ---
+    if (typeof loadSiteConfig === 'function') {
+        loadSiteConfig(function(config) {
+            if (config && config.categories) {
+                for (var i = 0; i < config.categories.length; i++) {
+                    categoryNames[config.categories[i].id] = config.categories[i].name;
+                }
+            }
         });
+    }
 
-        // Utils
-        function fmtDate(d) { try { return new Date(d).toLocaleDateString('en-US', {year:'numeric',month:'short',day:'numeric'}); } catch(e) { return d; } }
-        function esc(s) { if (!s) return ''; var d = document.createElement('div'); d.appendChild(document.createTextNode(s)); return d.innerHTML; }
-    })();
+    // --- Keyboard accessibility for cards ---
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter' && e.target.classList.contains('article-card')) {
+            e.target.click();
+        }
+    });
+
+    // --- Scroll listener ---
+    window.addEventListener('scroll', handleScroll);
+
+    // --- Init ---
+    loadData();
     </script>
 </body>
 </html>
