@@ -1,9 +1,4 @@
-/* ads.js - Shared ad initialization for HelloInsights
-   - Injects CSS to hide empty ad slots (zero height, no overflow)
-   - MutationObserver auto-expands slot when iframe is inserted
-   - Auto-pushes all <ins class="adsbygoogle"> elements (no inline push needed)
-   Usage: include <script src="ads.js" defer></script> in <head> after AdSense library
-*/
+/* ads.js - Shared ad initialization for HelloInsights Technology */
 (function(){
     var style=document.createElement('style');
     style.textContent='div[data-ad-slot]{height:0;overflow:hidden;transition:height .3s ease}';
