@@ -8,7 +8,7 @@
       "image": "https://images.unsplash.com/photo-1466690672306-5f92132f7248?w=800&h=450&fit=crop&fm=webp&q=80",
       "date": "2026-10-10",
       "content": "<p>If you want to understand where Global Economic Outlook is going, look at what early adopters are doing right now. The infrastructure supporting Global Economic Outlook has matured rapidly. Custody, settlement, reporting, analytics — the plumbing of the financial system is being rebuilt piece by piece. Better infrastructure attracts more participants, which in turn funds better infrastructure. It is a virtuous cycle that has played out in every previous wave of financial innovation, and Global Economic Outlook appears to be following the same script.</p>\n<p><strong>Interest Rate Strategy:</strong> A study by Vanguard found that investors who stayed fully invested during the 2022-2024 rate hiking cycle performed better than those who tried to time the market — by an average of 4.5% annually. \"The temptation to go to cash when rates rise is strong,\" says Vanguard senior economist Roger Aliaga-Diaz. \"But history consistently shows that staying the course wins. The pain of staying invested is temporary; the cost of missing the recovery is permanent.\"</p>\n<p>These are not isolated examples. Institutional attitudes toward Global Economic Outlook have shifted faster than almost anyone predicted. Pension funds, endowments, and insurance companies that once dismissed the category are now making meaningful allocations. Their entry brings stability, deeper liquidity, and higher standards for reporting and compliance. It also changes the market dynamics that early participants took for granted.</p>\n<p>Take one company as an example. Regulatory developments continue to shape the trajectory of Global Economic Outlook. Policymakers are walking a difficult line between fostering innovation and protecting consumers. The approach differs across jurisdictions, creating a patchwork of rules that adds complexity for participants operating globally. Clarity, when it comes, tends to unlock significant capital from players who were waiting on the sidelines.</p>",
-      "featured": true
+      "featured": false
     },
     {
       "id": 78477,
@@ -702,8 +702,8 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2026-10-10T04:45:32.574Z",
-    "totalArticles": 260,
+    "lastUpdated": "2026-10-11T04:30:48.971Z",
+    "totalArticles": 265,
     "newToday": 5,
     "generator": "Template v3",
     "templates": "8 structure types"
