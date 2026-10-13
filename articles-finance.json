@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "id": 11067,
+      "category": "finance",
+      "title": "ESG Investing: What Investors Need to Know",
+      "excerpt": "Breaking down esg investing: insights, trends, and practical applications.",
+      "image": "https://images.unsplash.com/photo-1482501157762-56897a411e05?w=800&h=450&fit=crop&fm=webp&q=80",
+      "date": "2026-10-13",
+      "content": "<p>The data on ESG Investing tells a story that opinions alone cannot. Regulatory developments continue to shape the trajectory of ESG Investing. Policymakers are walking a difficult line between fostering innovation and protecting consumers. The approach differs across jurisdictions, creating a patchwork of rules that adds complexity for participants operating globally. Clarity, when it comes, tends to unlock significant capital from players who were waiting on the sidelines.</p>\n<p><strong>Private Credit Boom:</strong> The private credit market has grown to $1.7 trillion, up from $500 billion in 2015, according to Preqin. As banks pull back on lending due to regulation, private lenders have stepped in. \"Private credit has gone from a niche asset class to a mainstream allocation,\" says Blackstone's head of private credit. \"Institutional investors like the predictable returns and the diversification it provides from public markets.\"</p>\n<p><strong>Healthcare Costs:</strong> Healthcare spending in the U.S. reached $4.5 trillion in 2022 — nearly 18% of GDP — and it's projected to grow faster than the economy for the foreseeable future. \"Healthcare is the single biggest expense for most families, even if they don't realize it,\" says health economist Dr. Gerard Anderson. \"Premiums, deductibles, copays, prescriptions — it adds up. The system is unsustainable in its current form. The question isn't whether it will change, but how.\"</p>\n<p>Not all of the data points in the same direction. The outlook for ESG Investing remains broadly positive among most observers, though with healthy disagreement about the pace and path forward. Structural tailwinds — demographic shifts, technological change, global economic rebalancing — support continued growth over the medium term. But short-term volatility should be expected, and investors without the stomach for it should think carefully before committing capital.</p>\n<p>Let us start with the headline figures. The infrastructure supporting ESG Investing has matured rapidly. Custody, settlement, reporting, analytics — the plumbing of the financial system is being rebuilt piece by piece. Better infrastructure attracts more participants, which in turn funds better infrastructure. It is a virtuous cycle that has played out in every previous wave of financial innovation, and ESG Investing appears to be following the same script.</p>\n<p>Let us start with the headline figures. Institutional attitudes toward ESG Investing have shifted faster than almost anyone predicted. Pension funds, endowments, and insurance companies that once dismissed the category are now making meaningful allocations. Their entry brings stability, deeper liquidity, and higher standards for reporting and compliance. It also changes the market dynamics that early participants took for granted.</p>",
+      "featured": false
+    },
+    {
       "id": 71788,
       "category": "finance",
       "title": "The Role of Wealth Management in Modern Finance",
@@ -8,7 +18,7 @@
       "image": "https://images.unsplash.com/photo-1468590069246-1d314d8c78bb?w=800&h=450&fit=crop&fm=webp&q=80",
       "date": "2026-10-12",
       "content": "<p>The story of Wealth Management is best told through the companies and people already living it. The outlook for Wealth Management remains broadly positive among most observers, though with healthy disagreement about the pace and path forward. Structural tailwinds — demographic shifts, technological change, global economic rebalancing — support continued growth over the medium term. But short-term volatility should be expected, and investors without the stomach for it should think carefully before committing capital.</p>\n<p><strong>Women and Wealth:</strong> Women are expected to control $30 trillion in wealth by 2030, according to McKinsey — about one-third of total U.S. household wealth. Yet 70% of women say the financial industry doesn't understand their needs. \"The industry was built by men for men,\" says women's wealth expert Dr. Kathleen Burns Kingsbury. \"Women tend to approach money differently — more holistically, more focused on goals and security, less on beating the market. Advisors who recognize this will capture the biggest wealth transfer in history.\"</p>\n<p>These are not isolated examples. Institutional attitudes toward Wealth Management have shifted faster than almost anyone predicted. Pension funds, endowments, and insurance companies that once dismissed the category are now making meaningful allocations. Their entry brings stability, deeper liquidity, and higher standards for reporting and compliance. It also changes the market dynamics that early participants took for granted.</p>\n<p>These are not isolated examples. Regulatory developments continue to shape the trajectory of Wealth Management. Policymakers are walking a difficult line between fostering innovation and protecting consumers. The approach differs across jurisdictions, creating a patchwork of rules that adds complexity for participants operating globally. Clarity, when it comes, tends to unlock significant capital from players who were waiting on the sidelines.</p>",
-      "featured": true
+      "featured": false
     },
     {
       "id": 48156,
@@ -722,8 +732,8 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2026-10-12T04:46:03.611Z",
-    "totalArticles": 270,
+    "lastUpdated": "2026-10-13T05:50:01.684Z",
+    "totalArticles": 275,
     "newToday": 5,
     "generator": "Template v3",
     "templates": "8 structure types"
