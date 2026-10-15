@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "id": 53298,
+      "category": "health-lifestyle",
+      "title": "Healthy Recipes: Tips from Health Experts",
+      "excerpt": "What the latest research tells us about healthy recipes and where it is heading.",
+      "image": "https://images.unsplash.com/photo-1495914510314-ba3164b1321f?w=800&h=450&fit=crop&fm=webp&q=80",
+      "date": "2026-10-15",
+      "content": "<p>For anyone ready to dive into Healthy Recipes, here is what the people already doing it recommend. For most people, the biggest barrier to Healthy Recipes is not lack of information — it is lack of consistency. Knowing what to do is easy; actually doing it every day is the hard part. This is where behavioral strategies, social support, and environmental design make a real difference. People who set themselves up for success through small environmental changes do better than those who rely on willpower alone.</p>\n<p>Start with the basics and build from there. Long-term, the evidence suggests that Healthy Recipes contributes to better aging outcomes — not immortality, but more years of healthy, independent living. The difference shows up in chronic disease rates, mobility measures, and cognitive performance. It is never too late to start, but starting earlier clearly compounds the benefits. Small habits maintained over decades add up to enormous differences in quality of life.</p>\n<p>The key is consistency, not perfection. The conversation around Healthy Recipes has shifted from fringe wellness blogs into the mainstream of health advice. What was once dismissed as alternative or experimental is increasingly backed by solid research. Nutritionists, doctors, and public health experts now routinely include Healthy Recipes in their recommendations, though with the usual caveats about individual variation and moderation.</p>",
+      "featured": false
+    },
+    {
       "id": 23362,
       "category": "health-lifestyle",
       "title": "Nutrition and Diet: Myths vs. Reality",
@@ -792,8 +802,8 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2026-10-14T03:53:09.573Z",
-    "totalArticles": 280,
+    "lastUpdated": "2026-10-15T03:35:16.949Z",
+    "totalArticles": 285,
     "newToday": 5,
     "generator": "Template v3",
     "templates": "8 structure types"
