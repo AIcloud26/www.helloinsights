@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "id": 27124,
+      "category": "health-lifestyle",
+      "title": "Why Healthy Recipes Should Be Part of Your Routine",
+      "excerpt": "Discover how healthy recipes is revolutionizing the industry and what it means for you.",
+      "image": "https://images.unsplash.com/photo-1498373419901-52eba931dc4f?w=800&h=450&fit=crop&fm=webp&q=80",
+      "date": "2026-10-16",
+      "content": "<p>The story of Healthy Recipes is best told through the companies and people already living it. One of the most important realizations about Healthy Recipes is that there is no single right way to do it. Different people respond differently based on genetics, lifestyle, preferences, and health history. The best approach is the one that fits your life and that you can sustain. Perfectionism is actually counterproductive — consistency with a good-enough routine beats occasional bursts of intensity every time.</p>\n<p>The pattern repeats across industries. The conversation around Healthy Recipes has shifted from fringe wellness blogs into the mainstream of health advice. What was once dismissed as alternative or experimental is increasingly backed by solid research. Nutritionists, doctors, and public health experts now routinely include Healthy Recipes in their recommendations, though with the usual caveats about individual variation and moderation.</p>\n<p>A different picture emerges from a smaller, more focused player. The social side of Healthy Recipes matters more than most people admit. Doing things with others — joining a class, finding a workout buddy, cooking with friends — dramatically improves adherence. Humans are social creatures, and our habits are socially contagious. Surrounding yourself with people who make healthy choices makes it easier for you to make healthy choices too. It is not cheating; it is strategy.</p>",
+      "featured": false
+    },
+    {
       "id": 53298,
       "category": "health-lifestyle",
       "title": "Healthy Recipes: Tips from Health Experts",
@@ -802,8 +812,8 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2026-10-15T03:35:16.949Z",
-    "totalArticles": 285,
+    "lastUpdated": "2026-10-16T03:31:05.892Z",
+    "totalArticles": 290,
     "newToday": 5,
     "generator": "Template v3",
     "templates": "8 structure types"
