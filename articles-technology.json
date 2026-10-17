@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "id": 65712,
+      "category": "technology",
+      "title": "How Quantum Computing Is Reshaping Industries",
+      "excerpt": "Everything you need to know about quantum computing to stay ahead of the curve.",
+      "image": "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?w=800&h=450&fit=crop&fm=webp&q=80",
+      "date": "2026-10-17",
+      "content": "<p>We sat down with practitioners and researchers working at the forefront of Quantum Computing to get an unfiltered view. The talent market tells its own story of Quantum Computing's ascent. Demand for specialists has outpaced supply, creating a seller's market for qualified candidates. Salaries have climbed, and employers are offering increasingly creative perks and remote arrangements. For people entering the field, the opportunities are abundant. But the rapid growth also means standards are uneven, and employers must work harder to verify actual expertise.</p>\n<p><strong>Tech Worker Migration:</strong> The geography of tech talent is shifting. Remote work has made it possible for engineers to live anywhere, and many are leaving expensive coastal cities. \"The tech industry was concentrated in a handful of cities because that's where the companies were,\" says labor economist Dr. Enrico Moretti. \"Now that work can be done from anywhere, talent is dispersing. This is good for the country but challenging for cities that built their economies around tech.\"</p>\n<p>Even within the community, there is real disagreement. The Quantum Computing landscape has shifted dramatically in recent years, driven by new market forces, evolving standards, and changing user habits. Teams that once treated it as a side project now build their entire strategies around it. The change is not just technological — it is organizational. Companies are restructuring teams, rewriting job descriptions, and rethinking long-held assumptions about how software gets built and deployed.</p>\n<p>Practitioners in the field see things differently. Look at the numbers, and the scale of the shift becomes undeniable. Spending on Quantum Computing initiatives has more than doubled across mid-sized and large organizations over the past three years. What was once a discretionary budget line is now a core operating expense. Decision-makers increasingly view proficiency in Quantum Computing not as a nice-to-have skill but as a baseline requirement for staying competitive.</p>\n<p>Practitioners in the field see things differently. The regulatory picture is evolving too. Policymakers who once watched from the sidelines are now actively drafting rules for Quantum Computing. The pace of rulemaking varies dramatically by region — some jurisdictions favor light-touch guidance, others prefer more prescriptive frameworks. For organizations operating across borders, this patchwork creates real compliance challenges. Keeping up requires dedicated resources and constant vigilance.</p>",
+      "featured": true
+    },
+    {
       "id": 37549,
       "category": "technology",
       "title": "IoT and Smart Devices: Challenges and Opportunities Ahead",
@@ -8,7 +18,7 @@
       "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=450&fit=crop&fm=webp&q=80",
       "date": "2026-10-16",
       "content": "<p>What exactly is IoT and Smart Devices, and why does it keep popping up in every conversation? Open source communities have been central to IoT and Smart Devices's development. Shared tools, public benchmarks, and collaborative frameworks have accelerated progress across the board. Companies that once kept everything proprietary increasingly recognize the value of contributing back. This culture of openness has lowered barriers to entry, allowing smaller players to compete with established giants on a more level playing field.</p>\n<p>To answer that, we first need to define our terms. Look at the numbers, and the scale of the shift becomes undeniable. Spending on IoT and Smart Devices initiatives has more than doubled across mid-sized and large organizations over the past three years. What was once a discretionary budget line is now a core operating expense. Decision-makers increasingly view proficiency in IoT and Smart Devices not as a nice-to-have skill but as a baseline requirement for staying competitive.</p>\n<p><strong>IoT Expansion:</strong> There are now 17 billion IoT devices worldwide, growing at 14% annually, according to IDC. But the diversity of devices and protocols creates enormous integration challenges. \"IoT isn't one technology — it's thousands of technologies that don't talk to each other,\" says IoT analyst Dr. Carrie MacGillivray. \"The companies winning in IoT aren't the ones with the best sensors; they're the ones that make sensors work together.\"</p>\n<p>Part of the confusion comes from how broadly the term is used. The talent market tells its own story of IoT and Smart Devices's ascent. Demand for specialists has outpaced supply, creating a seller's market for qualified candidates. Salaries have climbed, and employers are offering increasingly creative perks and remote arrangements. For people entering the field, the opportunities are abundant. But the rapid growth also means standards are uneven, and employers must work harder to verify actual expertise.</p>\n<p><strong>Open Source Maturation:</strong> Open source software now underpins 90% of all software products, according to the Linux Foundation. But sustainability and security remain persistent challenges — widely used projects are often maintained by a handful of volunteers. \"Open source is free like a puppy is free,\" says open source strategist Dr. Nadia Eghbal. \"The initial download costs nothing, but the maintenance, security, and upkeep are real costs that someone has to bear.\"</p>\n<p>The short answer: it is complicated. The regulatory picture is evolving too. Policymakers who once watched from the sidelines are now actively drafting rules for IoT and Smart Devices. The pace of rulemaking varies dramatically by region — some jurisdictions favor light-touch guidance, others prefer more prescriptive frameworks. For organizations operating across borders, this patchwork creates real compliance challenges. Keeping up requires dedicated resources and constant vigilance.</p>",
-      "featured": true
+      "featured": false
     },
     {
       "id": 42865,
@@ -692,8 +702,8 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2026-10-16T03:31:05.892Z",
-    "totalArticles": 290,
+    "lastUpdated": "2026-10-17T03:21:10.044Z",
+    "totalArticles": 295,
     "newToday": 5,
     "generator": "Template v3",
     "templates": "8 structure types"
