@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "id": 99176,
+      "category": "finance",
+      "title": "Smart Money: Understanding ESG Investing",
+      "excerpt": "Discover how esg investing is revolutionizing the industry and what it means for you.",
+      "image": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=800&h=450&fit=crop&fm=webp&q=80",
+      "date": "2026-10-22",
+      "content": "<p>To really understand ESG Investing, you need to talk to the people building it, studying it, and living it every day. The outlook for ESG Investing remains broadly positive among most observers, though with healthy disagreement about the pace and path forward. Structural tailwinds — demographic shifts, technological change, global economic rebalancing — support continued growth over the medium term. But short-term volatility should be expected, and investors without the stomach for it should think carefully before committing capital.</p>\n<p><strong>Interest Rate Strategy:</strong> A study by Vanguard found that investors who stayed fully invested during the 2022-2024 rate hiking cycle performed better than those who tried to time the market — by an average of 4.5% annually. \"The temptation to go to cash when rates rise is strong,\" says Vanguard senior economist Roger Aliaga-Diaz. \"But history consistently shows that staying the course wins. The pain of staying invested is temporary; the cost of missing the recovery is permanent.\"</p>\n<p>One perspective comes from the research side. The infrastructure supporting ESG Investing has matured rapidly. Custody, settlement, reporting, analytics — the plumbing of the financial system is being rebuilt piece by piece. Better infrastructure attracts more participants, which in turn funds better infrastructure. It is a virtuous cycle that has played out in every previous wave of financial innovation, and ESG Investing appears to be following the same script.</p>\n<p><strong>Remittances Surge:</strong> Global remittances reached $794 billion in 2023, according to the World Bank, with India, Mexico, and China receiving the most. Remittances are now larger than foreign direct investment in many developing countries. \"Remittances are the unsung hero of development finance,\" says migration economist Dr. Dilip Ratha. \"They're bigger than aid, bigger than FDI in many countries, and they go directly to families. They reduce poverty, fund education, and build local economies.\"</p>\n<p>One perspective comes from the research side. Regulatory developments continue to shape the trajectory of ESG Investing. Policymakers are walking a difficult line between fostering innovation and protecting consumers. The approach differs across jurisdictions, creating a patchwork of rules that adds complexity for participants operating globally. Clarity, when it comes, tends to unlock significant capital from players who were waiting on the sidelines.</p>\n<p>Practitioners in the field see things differently. Institutional attitudes toward ESG Investing have shifted faster than almost anyone predicted. Pension funds, endowments, and insurance companies that once dismissed the category are now making meaningful allocations. Their entry brings stability, deeper liquidity, and higher standards for reporting and compliance. It also changes the market dynamics that early participants took for granted.</p>",
+      "featured": true
+    },
+    {
       "id": 84578,
       "category": "finance",
       "title": "The Role of ESG Investing in Modern Finance",
@@ -8,7 +18,7 @@
       "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&h=450&fit=crop&fm=webp&q=80",
       "date": "2026-10-21",
       "content": "<p>We sat down with practitioners and researchers working at the forefront of ESG Investing to get an unfiltered view. The outlook for ESG Investing remains broadly positive among most observers, though with healthy disagreement about the pace and path forward. Structural tailwinds — demographic shifts, technological change, global economic rebalancing — support continued growth over the medium term. But short-term volatility should be expected, and investors without the stomach for it should think carefully before committing capital.</p>\n<p><strong>Open Banking Takeoff:</strong> Plaid's 2024 Open Banking Report shows that 82 million consumers now use open banking-connected financial products. Account aggregation is the dominant use case, but payment initiation is the fastest growing — up 210% year-over-year. \"Open banking in the U.S. is five years behind Europe,\" notes Plaid's head of product Brian Dammeir. \"But the trajectory is steeper. We're compressing a decade of European adoption into a few years.\"</p>\n<p>Even within the community, there is real disagreement. The infrastructure supporting ESG Investing has matured rapidly. Custody, settlement, reporting, analytics — the plumbing of the financial system is being rebuilt piece by piece. Better infrastructure attracts more participants, which in turn funds better infrastructure. It is a virtuous cycle that has played out in every previous wave of financial innovation, and ESG Investing appears to be following the same script.</p>\n<p><strong>Remittances Surge:</strong> Global remittances reached $794 billion in 2023, according to the World Bank, with India, Mexico, and China receiving the most. Remittances are now larger than foreign direct investment in many developing countries. \"Remittances are the unsung hero of development finance,\" says migration economist Dr. Dilip Ratha. \"They're bigger than aid, bigger than FDI in many countries, and they go directly to families. They reduce poverty, fund education, and build local economies.\"</p>\n<p>Practitioners in the field see things differently. Institutional attitudes toward ESG Investing have shifted faster than almost anyone predicted. Pension funds, endowments, and insurance companies that once dismissed the category are now making meaningful allocations. Their entry brings stability, deeper liquidity, and higher standards for reporting and compliance. It also changes the market dynamics that early participants took for granted.</p>\n<p>One perspective comes from the research side. Current market data reveals a pattern that deserves closer examination. Performance across key indicators suggests a fundamental re-evaluation is underway, not just a temporary swing. The drivers are different from previous cycles — structural changes, not just sentiment, are at work. Understanding the distinction matters because it determines how investors should position themselves.</p>",
-      "featured": true
+      "featured": false
     },
     {
       "id": 13971,
@@ -842,8 +852,8 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2026-10-21T03:39:36.503Z",
-    "totalArticles": 315,
+    "lastUpdated": "2026-10-22T03:39:10.159Z",
+    "totalArticles": 320,
     "newToday": 5,
     "generator": "Template v3",
     "templates": "8 structure types"
