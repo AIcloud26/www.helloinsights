@@ -1,6 +1,26 @@
 {
   "articles": [
     {
+      "id": 35559,
+      "category": "technology",
+      "title": "Robotics and Automation: The Next Big Thing in Tech",
+      "excerpt": "A deep dive into robotics and automation: what the data shows and why it matters.",
+      "image": "https://images.unsplash.com/photo-1633596683562-4a47eb4983c5?w=800&h=450&fit=crop&fm=webp&q=80",
+      "date": "2026-11-21",
+      "content": "<p>The most interesting thinking about Robotics and Automation often happens off the record. Here is what we can share. The Robotics and Automation landscape has shifted dramatically in recent years, driven by new market forces, evolving standards, and changing user habits. Teams that once treated it as a side project now build their entire strategies around it. The change is not just technological — it is organizational. Companies are restructuring teams, rewriting job descriptions, and rethinking long-held assumptions about how software gets built and deployed.</p>\n<p><strong>Tech Worker Migration:</strong> The geography of tech talent is shifting. Remote work has made it possible for engineers to live anywhere, and many are leaving expensive coastal cities. \"The tech industry was concentrated in a handful of cities because that's where the companies were,\" says labor economist Dr. Enrico Moretti. \"Now that work can be done from anywhere, talent is dispersing. This is good for the country but challenging for cities that built their economies around tech.\"</p>\n<p>One perspective comes from the research side. Looking ahead, the trajectory points toward broader adoption and deeper integration. What is now considered advanced will soon be standard practice. What is now on the cutting edge will eventually become common sense. The organizations that invest early and build genuine expertise will have the advantage. Latecomers will eventually catch up in terms of tools, but the knowledge gap will take longer to close.</p>\n<p><strong>Automotive Tech Race:</strong> The auto industry is undergoing its biggest transformation since the invention of the assembly line. Software-defined vehicles, electrification, and autonomy are converging. \"Cars are becoming computers on wheels,\" says automotive tech analyst Dr. Egil Juliussen. \"The challenge is that the auto industry moves slowly and the tech industry moves fast. Bridging that cultural gap is harder than the technology itself.\"</p>\n<p>Even within the community, there is real disagreement. Real-world results tell a more nuanced story than the marketing brochures suggest. Companies implementing Robotics and Automation report both meaningful wins and unexpected setbacks. Some projects deliver beyond expectations; others stall due to organizational resistance or underestimated complexity. Success correlates less with which tools you pick and more with how you roll them out, train your people, and measure progress.</p>\n<p>Practitioners in the field see things differently. The regulatory picture is evolving too. Policymakers who once watched from the sidelines are now actively drafting rules for Robotics and Automation. The pace of rulemaking varies dramatically by region — some jurisdictions favor light-touch guidance, others prefer more prescriptive frameworks. For organizations operating across borders, this patchwork creates real compliance challenges. Keeping up requires dedicated resources and constant vigilance.</p>",
+      "featured": false
+    },
+    {
+      "id": 59890,
+      "category": "technology",
+      "title": "The Future of IoT and Smart Devices: Trends to Watch",
+      "excerpt": "Everything you need to know about iot and smart devices to stay ahead of the curve.",
+      "image": "https://images.unsplash.com/photo-1633783156075-a01661455344?w=800&h=450&fit=crop&fm=webp&q=80",
+      "date": "2026-11-21",
+      "content": "<p>We sat down with practitioners and researchers working at the forefront of IoT and Smart Devices to get an unfiltered view. Looking ahead, the trajectory points toward broader adoption and deeper integration. What is now considered advanced will soon be standard practice. What is now on the cutting edge will eventually become common sense. The organizations that invest early and build genuine expertise will have the advantage. Latecomers will eventually catch up in terms of tools, but the knowledge gap will take longer to close.</p>\n<p><strong>Zero Trust Security:</strong> The zero trust security model — \"never trust, always verify\" — is becoming the standard approach for enterprise security. But implementing it is complex and expensive. \"The old castle-and-moat approach to security doesn't work anymore,\" says security architect Dr. John Kindervag. \"With cloud, mobile, and remote work, there's no perimeter to defend. Zero trust isn't a product you buy — it's a strategy you implement, and it takes years to do right.\"</p>\n<p>When you step back, the common ground is clearer. Real-world results tell a more nuanced story than the marketing brochures suggest. Companies implementing IoT and Smart Devices report both meaningful wins and unexpected setbacks. Some projects deliver beyond expectations; others stall due to organizational resistance or underestimated complexity. Success correlates less with which tools you pick and more with how you roll them out, train your people, and measure progress.</p>\n<p>One perspective comes from the research side. The IoT and Smart Devices landscape has shifted dramatically in recent years, driven by new market forces, evolving standards, and changing user habits. Teams that once treated it as a side project now build their entire strategies around it. The change is not just technological — it is organizational. Companies are restructuring teams, rewriting job descriptions, and rethinking long-held assumptions about how software gets built and deployed.</p>\n<p>One perspective comes from the research side. The regulatory picture is evolving too. Policymakers who once watched from the sidelines are now actively drafting rules for IoT and Smart Devices. The pace of rulemaking varies dramatically by region — some jurisdictions favor light-touch guidance, others prefer more prescriptive frameworks. For organizations operating across borders, this patchwork creates real compliance challenges. Keeping up requires dedicated resources and constant vigilance.</p>",
+      "featured": false
+    },
+    {
       "id": 69429,
       "category": "technology",
       "title": "Cybersecurity: Challenges and Opportunities Ahead",
@@ -1152,8 +1172,8 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2026-11-20T06:03:58.383Z",
-    "totalArticles": 465,
+    "lastUpdated": "2026-11-21T05:56:55.316Z",
+    "totalArticles": 470,
     "newToday": 5,
     "generator": "Template v3",
     "templates": "8 structure types"
